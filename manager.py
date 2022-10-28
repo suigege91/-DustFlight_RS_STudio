@@ -1,4 +1,4 @@
-from wsgi import app
+from app import app
 from flask_migrate import Migrate
 from flask_script import Manager, Server
 from models import db, DF_User, DF_Post, DF_Comment, DF_Tag
